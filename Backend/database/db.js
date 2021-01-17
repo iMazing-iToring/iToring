@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize")
 const db = {}
-const sequelize = new Sequelize("iToring", "root", "0245315305ivaylo", {
+const sequelize = new Sequelize("iToring", "root", "xxxxxxxxxxx", {
     host: 'localhost',
     dialect: 'mysql',
     operatorsAliases: false,
