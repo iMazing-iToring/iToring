@@ -1,0 +1,81 @@
+.body {
+    background: rgb(4,195,254);
+background: linear-gradient(90deg, rgba(4,195,254,1) 0%, rgba(1,87,242,1) 100%);
+}
+.signInContainer {
+    position: fixed;
+    left: -50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 350px;
+    transition: all 0.8s ease-in;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.signInContainer.open {
+    left: 50%;
+}
+.signInContainer .errorMsg {
+    padding: 2px 0;
+    width: 100%;
+    margin: 0 auto 5px auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px dotted red; 
+    color: red;
+}
+.signInContainer h3 {
+    font-size: 22px;
+}
+.signInContainer h3 span {
+    margin: 0 2px;
+}
+.signInContainer h3 .svg{
+    vertical-align: middle;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.signInContainer h3 .svg:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+.signInContainer label {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.signInContainer input {
+    outline: none !important;
+    border: none;
+    border-radius: 10px;
+}
+.signInContainer input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.signInContainer .form-group {
+    margin-bottom: 10px;
+}
+.signInContainer .text-muted {
+    margin-left: 5px;
+    font-size: 14px;
+}
+.signInContainer button {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #2bb1ec;
+    border: none;
+}
+.signInContainer button:hover {
+    background-color: #1c78a0;
+    border: none;
+}
+.signInContainer .createAccSpan {
+    color: #007BFF;
+}
+.signInContainer .createAccSpan:hover {
+    cursor: pointer;
+}

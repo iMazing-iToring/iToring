@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    max-width: 100%;
+}
+.container .pCols.left {
+    height: 100vh;
+    background-color: #2bb1ec;
+    text-align: center;
+    padding: 10px 0;
+}
+.container .pCols.left .userAvatar img{
+    width: 150px;   
+}
+.container .pCols.left .userNames {
+    margin: 0 5px;
+}
+.container .pCols.left .userNames p{
+    font-size: 17px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: white;
+}
+.container .pCols.left .buttons {
+    text-align: left;
+}
+.container .pCols.left .buttons .button {
+    border-left: 3px solid white;
+    padding: 6px 5px;
+    color: white;
+    transition: 0.3s;
+    margin: 15px -10px;
+}
+.container .pCols.left .buttons .button:hover {
+    color: black;
+    cursor: pointer;
+    border-left: 4px solid black;
+}
+.container .pCols.left .buttons .button svg {
+    margin: 0 5px;
+}
+.container .pCols.right .logsPanel{
+    margin: 20px 0;
+}

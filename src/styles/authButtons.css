@@ -1,0 +1,9 @@
+.buttons {
+    margin: 0 10px;
+    font-weight: bold;
+}
+.buttons.signIN {
+    border-radius: 20px;
+    background-color: #2bb1ec;
+    border: none;
+}

@@ -1,0 +1,45 @@
+.mBody {
+    background: rgb(4,195,254);
+    background: linear-gradient(90deg, rgba(4,195,254,1) 0%, rgba(1,87,242,1) 100%);
+    width: 100%;
+    height: 100vh;
+}
+.monitoringPanelContainer {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.monitoringPanelContainer .monitoringTitle {
+    font-size: 20px;
+}
+.monitoringPanelContainer .monitoringTitle svg {
+    color: #2bb1ec;
+    margin-right: 5px;
+}
+.monitoringPanelContainer input {
+    border: 1px solid #2bb1ec;
+}
+.monitoringPanelContainer input:focus {
+    outline: none;
+    box-shadow: none;
+}
+.monitoringPanelContainer table {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    table-layout:fixed;
+}
+.monitoringPanelContainer table td {
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+    white-space: -o-pre-wrap; 
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    vertical-align: middle;
+}

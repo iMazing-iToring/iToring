@@ -1,0 +1,101 @@
+.companyBrand {
+    /* width: 500px;
+    margin: 30px auto 0 auto; */
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.companyBrand img {
+    width: 150px;
+}
+.signUpContainer {
+    position: fixed;
+    left: -50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 430px;
+    height: 480px;
+    transition: all 0.8s ease-in;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.signUpContainer.open {
+    left: 50%;
+}
+.signUpContainer .errorMsg {
+    padding: 2px 0;
+    width: 100%;
+    margin: 0 auto 5px auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px dotted red; 
+    color: red;
+}
+.signUpContainer h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.signUpContainer h3 span {
+    margin: 0 2px;
+    vertical-align: middle;
+}
+.signUpContainer h3 .svg{
+    vertical-align: middle;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.signUpContainer h3 .svg:hover {
+    color: #2bb1ec;
+    cursor: pointer;
+}
+.signUpContainer label {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.signUpContainer input {
+    outline: none !important;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 3px 10px !important;
+}
+.signUpContainer input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.signUpContainer .inputGroupPrepend span {
+    background-color: #2bb1ec;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 14px;
+}
+.signUpContainer .form-group {
+    margin-bottom: 5px;
+}
+.signUpContainer .text-muted {
+    margin-left: 5px;
+    font-size: 14px;
+}
+.signUpContainer button {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #2bb1ec;
+    border: none;
+    margin-top: 5px;
+}
+.signUpContainer button:hover {
+    background-color: #1c78a0;
+    border: none;
+}
+.signUpContainer .signInAccSpan {
+    color: #2bb1ec;
+}
+.signUpContainer .signInAccSpan:hover {
+    cursor: pointer;
+}
